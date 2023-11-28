@@ -1,8 +1,8 @@
 api = "0.7"
 
 [buildpack]
-  homepage = "https://github.com/paketo-buildpacks/php"
-  id = "paketo-buildpacks/php"
+  homepage = "https://github.com/ninech/buildpack-php"
+  id = "ninech/php"
   name = "Paketo Buildpack for PHP"
 
   [[buildpack.licenses]]
@@ -34,9 +34,9 @@ api = "0.7"
     version = "0.6.4"
 
   [[order.group]]
-    id = "paketo-buildpacks/composer-install"
+    id = "ninech/buildpack-composer-install"
     optional = true
-    version = "0.3.19"
+    version = "0.0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/httpd"
@@ -101,9 +101,9 @@ api = "0.7"
     version = "0.6.4"
 
   [[order.group]]
-    id = "paketo-buildpacks/composer-install"
+    id = "ninech/buildpack-composer-install"
     optional = true
-    version = "0.3.19"
+    version = "0.0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/nginx"
@@ -158,9 +158,9 @@ api = "0.7"
     version = "0.6.4"
 
   [[order.group]]
-    id = "paketo-buildpacks/composer-install"
+    id = "ninech/buildpack-composer-install"
     optional = true
-    version = "0.3.19"
+    version = "0.0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/php-builtin-server"
