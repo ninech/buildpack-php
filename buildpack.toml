@@ -2,7 +2,7 @@ api = "0.7"
 
 [buildpack]
   homepage = "https://github.com/ninech/buildpack-php"
-  id = "ninech/php"
+  id = "ninech/buildpack-php"
   name = "Paketo Buildpack for PHP"
 
   [[buildpack.licenses]]
