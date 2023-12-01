@@ -36,7 +36,7 @@ api = "0.7"
   [[order.group]]
     id = "ninech/buildpack-composer-install"
     optional = true
-    version = "0.0.2"
+    version = "0.0.3"
 
   [[order.group]]
     id = "paketo-buildpacks/httpd"
@@ -103,7 +103,7 @@ api = "0.7"
   [[order.group]]
     id = "ninech/buildpack-composer-install"
     optional = true
-    version = "0.0.2"
+    version = "0.0.3"
 
   [[order.group]]
     id = "paketo-buildpacks/nginx"
@@ -160,7 +160,7 @@ api = "0.7"
   [[order.group]]
     id = "ninech/buildpack-composer-install"
     optional = true
-    version = "0.0.2"
+    version = "0.0.3"
 
   [[order.group]]
     id = "paketo-buildpacks/php-builtin-server"
