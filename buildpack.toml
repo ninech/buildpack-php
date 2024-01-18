@@ -114,8 +114,8 @@ api = "0.7"
     version = "0.2.21"
 
   [[order.group]]
-    id = "paketo-buildpacks/php-nginx"
-    version = "0.3.7"
+    id = "ninech/buildpack-php-nginx"
+    version = "0.0.3"
 
   [[order.group]]
     id = "paketo-buildpacks/php-memcached-session-handler"
