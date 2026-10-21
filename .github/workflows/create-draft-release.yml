@@ -55,6 +55,9 @@ jobs:
     name: Release
     runs-on: ubuntu-22.04
     needs: integration
+    permissions:
+      contents: write
+      pull-requests: read
     steps:
     - name: Checkout
       uses: actions/checkout@v3
@@ -89,12 +92,12 @@ jobs:
       uses: paketo-buildpacks/github-config/actions/release/notes@main
       with:
         repo: ${{ github.repository }}
-        token: ${{ secrets.NINE_BOT_GITHUB_TOKEN }}
+        token: ${{ github.token }}
     - name: Create Draft Release
       uses: paketo-buildpacks/github-config/actions/release/create@main
       with:
         repo: ${{ github.repository }}
-        token: ${{ secrets.NINE_BOT_GITHUB_TOKEN }}
+        token: ${{ github.token }}
         tag_name: v${{ steps.tag.outputs.tag }}
         target_commitish: ${{ github.sha }}
         name: v${{ steps.tag.outputs.tag }}
