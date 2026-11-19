@@ -15,7 +15,7 @@
   uri = "ghcr.io/ninech/buildpack-composer-install:0.0.3"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/php-dist:2.10.33"
+  uri = "docker://docker.io/paketobuildpacks/php-dist:2.10.38"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/php-httpd:0.3.70"
